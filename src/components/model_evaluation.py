@@ -25,6 +25,6 @@ class ModelEvaluation:
         try:
             pass
         except Exception as e:
-            logging.info()
+            logging.info("sadasd")
             raise customexception(e, sys)
     
