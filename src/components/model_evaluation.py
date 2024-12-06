@@ -21,7 +21,7 @@ class ModelEvaluation:
         pass
     
     
-    def initiate_model_evaluation(self):
+    def initiate_model_evaluation(self, train_arr, test_arr):
         try:
             pass
         except Exception as e:
