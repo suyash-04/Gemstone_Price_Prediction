@@ -1,7 +1,7 @@
 echo [$(date)] : "Start"
 
 
-sudo  apt install python3.12-venv
+sudo  apt install python3.11-venv
 
 echo [$(date)] : "creating env with python"
 
