@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/818de9b18cb34d90b4a35aa7506f4755/artifacts
+end_time: 1733918577077
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 818de9b18cb34d90b4a35aa7506f4755
+run_name: bustling-squid-509
+run_uuid: 818de9b18cb34d90b4a35aa7506f4755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733918572528
+status: 3
+tags: []
+user_id: suyash
