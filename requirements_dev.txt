@@ -3,10 +3,13 @@ scikit-learn
 numpy
 seaborn 
 flask
-mlflow==2.2.2
+
 dvc
 ipykernel
 xgboost
+mlflow==2.2.2
+opentelemetry-proto==1.13.0
+protobuf==4.21.12
 
 # dev requirements -
 
@@ -15,5 +18,6 @@ tox==3.25.1
 black==22.8.0
 flake8==5.0.4
 mypy==0.971
+apache-airflow
 
 -e .

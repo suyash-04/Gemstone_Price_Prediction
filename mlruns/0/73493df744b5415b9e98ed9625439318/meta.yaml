@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/73493df744b5415b9e98ed9625439318/artifacts
+end_time: 1734157688552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73493df744b5415b9e98ed9625439318
+run_name: respected-ram-292
+run_uuid: 73493df744b5415b9e98ed9625439318
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157678971
+status: 3
+tags: []
+user_id: suyash

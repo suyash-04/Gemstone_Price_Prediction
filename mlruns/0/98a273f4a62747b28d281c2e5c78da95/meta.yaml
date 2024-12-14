@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/98a273f4a62747b28d281c2e5c78da95/artifacts
+end_time: 1734097615412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98a273f4a62747b28d281c2e5c78da95
+run_name: handsome-newt-757
+run_uuid: 98a273f4a62747b28d281c2e5c78da95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734097610448
+status: 3
+tags: []
+user_id: suyash

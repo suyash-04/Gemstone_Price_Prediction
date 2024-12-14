@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/e17ddffb8f0446b9b4b4ef2cbd924d1d/artifacts
+end_time: 1734097861810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e17ddffb8f0446b9b4b4ef2cbd924d1d
+run_name: carefree-hare-237
+run_uuid: e17ddffb8f0446b9b4b4ef2cbd924d1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734097856657
+status: 3
+tags: []
+user_id: suyash

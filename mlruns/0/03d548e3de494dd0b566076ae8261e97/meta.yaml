@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/03d548e3de494dd0b566076ae8261e97/artifacts
+end_time: 1734157410504
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03d548e3de494dd0b566076ae8261e97
+run_name: skittish-loon-523
+run_uuid: 03d548e3de494dd0b566076ae8261e97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157405825
+status: 3
+tags: []
+user_id: suyash

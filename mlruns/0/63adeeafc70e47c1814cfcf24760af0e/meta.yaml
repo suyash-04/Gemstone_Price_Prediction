@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/63adeeafc70e47c1814cfcf24760af0e/artifacts
+end_time: 1734157758500
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63adeeafc70e47c1814cfcf24760af0e
+run_name: stately-fly-95
+run_uuid: 63adeeafc70e47c1814cfcf24760af0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157754440
+status: 3
+tags: []
+user_id: suyash

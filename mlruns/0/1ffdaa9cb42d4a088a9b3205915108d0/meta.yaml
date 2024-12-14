@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/1ffdaa9cb42d4a088a9b3205915108d0/artifacts
+end_time: 1734157469271
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ffdaa9cb42d4a088a9b3205915108d0
+run_name: ambitious-fox-699
+run_uuid: 1ffdaa9cb42d4a088a9b3205915108d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157465434
+status: 3
+tags: []
+user_id: suyash

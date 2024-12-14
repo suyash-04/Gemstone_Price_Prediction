@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/72f826e96d8b4ad39268b0f194f687ae/artifacts
+end_time: 1734157492924
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72f826e96d8b4ad39268b0f194f687ae
+run_name: skittish-yak-706
+run_uuid: 72f826e96d8b4ad39268b0f194f687ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157489072
+status: 3
+tags: []
+user_id: suyash

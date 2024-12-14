@@ -26,7 +26,7 @@ class DataIngestion:
         logging.info("started data ingestion!")
         
         try:
-            data = pd.read_csv(os.path.abspath("./artifacts/raw.csv"))
+            data = pd.read_csv(os.path.abspath("./experiment/data/raw.csv"))
             logging.info("reading the raw data")
             
             os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)),exist_ok=True)
