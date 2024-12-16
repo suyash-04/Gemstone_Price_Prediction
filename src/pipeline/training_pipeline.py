@@ -1,8 +1,9 @@
 import os
 import sys
+import pandas as pd
 from src.logger.my_logger import logging
 from src.exception.exception import customexception
-import pandas as pd
+
 
 from src.components.data_ingestion import DataIngestion
 from src.components.data_transformation import DataTransformation

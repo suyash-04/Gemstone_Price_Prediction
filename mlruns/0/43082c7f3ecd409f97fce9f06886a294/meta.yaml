@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/43082c7f3ecd409f97fce9f06886a294/artifacts
+end_time: 1734367334311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43082c7f3ecd409f97fce9f06886a294
+run_name: agreeable-wolf-879
+run_uuid: 43082c7f3ecd409f97fce9f06886a294
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734367320151
+status: 3
+tags: []
+user_id: suyash

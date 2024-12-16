@@ -1,0 +1,31 @@
+version: "3"
+services:
+  airflow:
+    build:
+      context: ./
+      dockerfile: Dockerfile.airflow
+    image: airflowimage
+    container_name: gemstone-prediction-airflow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app/airflow/dags:/app/airflow/dags
+     
+    environment:
+      - AIRFLOW_HOME=/app/airflow
+      - AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=1000
+      - AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
+    restart: unless-stopped  # Optional: restart policy
+
+  flaskapp:
+    build:
+      context: ./
+      dockerfile: Dockerfile.flask
+    image: flaskimage
+    container_name: gemstone-prediction-flask
+    ports:
+      - "80:80"
+    environment:
+    - FLASK_APP=app.py
+    - FLASK_ENV=development
+    

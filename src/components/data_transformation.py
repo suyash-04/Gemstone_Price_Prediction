@@ -51,7 +51,8 @@ class DataTransformation:
             preprocessor=ColumnTransformer([
             ('num_pipeline',num_pipeline,num_cols),
             ('cat_pipeline',cat_pipeline,cat_cols)
-            ])
+            ],
+                                           remainder = 'passthrough')
             
             return preprocessor
             

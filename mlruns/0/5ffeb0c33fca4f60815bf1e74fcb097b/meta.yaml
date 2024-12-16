@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/5ffeb0c33fca4f60815bf1e74fcb097b/artifacts
+end_time: 1734273697590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ffeb0c33fca4f60815bf1e74fcb097b
+run_name: nebulous-snipe-675
+run_uuid: 5ffeb0c33fca4f60815bf1e74fcb097b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734273688079
+status: 3
+tags: []
+user_id: suyash

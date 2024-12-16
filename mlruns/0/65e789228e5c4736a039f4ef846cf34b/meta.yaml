@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/65e789228e5c4736a039f4ef846cf34b/artifacts
+end_time: 1734157986269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 65e789228e5c4736a039f4ef846cf34b
+run_name: worried-mouse-373
+run_uuid: 65e789228e5c4736a039f4ef846cf34b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734157980406
+status: 3
+tags: []
+user_id: suyash
