@@ -13,8 +13,8 @@ class PredictPipeline:
         
     def predict(self , features):
         try:
-            preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
-            model_path = os.path.join("artifacts", "model.pkl")
+            preprocessor_path = os.path.abspath("./artifacts/preprocessor.pkl")
+            model_path = os.path.abspath("./artifacts/model.pkl")
             
             prerocessor = load_object(preprocessor_path)
             

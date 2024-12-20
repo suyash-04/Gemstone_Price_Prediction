@@ -1,0 +1,15 @@
+artifact_uri: file:///home/suyash/codes/mlops/Gemstone_Price_Prediction/mlruns/0/bfa51aa41c46405fa9744845dcbc66ef/artifacts
+end_time: 1734717244586
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bfa51aa41c46405fa9744845dcbc66ef
+run_name: brawny-mare-963
+run_uuid: bfa51aa41c46405fa9744845dcbc66ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1734717235685
+status: 3
+tags: []
+user_id: suyash

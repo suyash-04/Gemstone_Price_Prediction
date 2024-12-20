@@ -1,0 +1,28 @@
+services:
+  - name: gemstone-prediction-airflow
+    type: web
+    runtime: docker            # Specify Docker runtime
+    dockerfilePath: ./Dockerfile.airflow
+    plan: free
+    envVars:
+      - key: AIRFLOW_HOME
+        value: /app/airflow
+      - key: AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT
+        value: "1000"
+      - key: AIRFLOW_CORE_ENABLE_XCOM_PICKLING
+        value: "True"
+    healthCheckPath: /
+
+  - name: gemstone-prediction-flask
+    type: web
+    runtime: docker            # Specify Docker runtime
+    dockerfilePath: ./Dockerfile.flask
+    plan: free
+    envVars:
+      - key: FLASK_APP
+        value: app.py
+      - key: FLASK_DEBUG
+        value: "1"
+    healthCheckPath: /
+
+
