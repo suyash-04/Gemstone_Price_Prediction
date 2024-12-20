@@ -25,6 +25,8 @@ services:
     container_name: gemstone-prediction-flask
     ports:
       - "80:80"
+    volumes:
+      - ./artifacts:/app/artifacts
     environment:
     - FLASK_APP=app.py
     - FLASK_DEBUG=1
