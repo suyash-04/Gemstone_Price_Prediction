@@ -10,7 +10,7 @@ The **Gemstone Price Prediction** project leverages machine learning techniques 
 - **MLflow:** Monitors and manages machine learning experiments, logging metrics and parameters.  
 - **Apache Airflow:** Orchestrates workflows for automation and pipeline scheduling.  
 - **Docker & Docker Compose:** Containerizes the application to ensure consistent deployment across different environments.  
-- **Automated Testing:** Includes unit tests to validate model performance and pipeline integrity.
+
 
 ## Demo
 🚨This instance will spin down with inactivity, which can delay requests by 50 seconds or more
