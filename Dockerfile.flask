@@ -6,4 +6,6 @@ RUN apt update -y
 
 RUN apt-get update  && pip install -r requirements_dev.txt
 EXPOSE 80
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
+  CMD curl --silent --fail http://localhost:80/ || exit 1
 CMD ["python3", "app.py"]
