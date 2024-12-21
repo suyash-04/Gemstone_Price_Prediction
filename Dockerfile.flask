@@ -1,11 +1,29 @@
+# Use a slim version of Python 3.11 as the base image
 FROM python:3.11-slim-buster
+
+# Set the working directory in the container
 WORKDIR /app
+
+# Copy all the application files into the container
 COPY . /app
 
-RUN apt update -y
+# Install system dependencies and update
+RUN apt update -y && apt-get install -y curl
 
-RUN apt-get update  && pip install -r requirements_dev.txt
+# Install Python dependencies from the requirements_dev.txt file
+RUN pip install --no-cache-dir -r requirements_dev.txt
+
+# Expose port 80 to match the docker-compose.yml configuration
 EXPOSE 80
+
+# Set environment variables to configure Flask
+ENV FLASK_APP=app.py
+ENV FLASK_DEBUG=1
+ENV PORT=80
+
+# Define the health check for the Flask app
 HEALTHCHECK --interval=30s --timeout=10s --retries=3 \
   CMD curl --silent --fail http://localhost:80/ || exit 1
+
+# Command to run the Flask app on container start
 CMD ["python3", "app.py"]
