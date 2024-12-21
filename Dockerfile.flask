@@ -5,4 +5,5 @@ COPY . /app
 RUN apt update -y
 
 RUN apt-get update  && pip install -r requirements_dev.txt
+EXPOSE 80
 CMD ["python3", "app.py"]

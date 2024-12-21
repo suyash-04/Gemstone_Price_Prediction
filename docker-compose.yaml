@@ -10,12 +10,11 @@ services:
       - "8080:8080"
     volumes:
       - ./app/airflow/dags:/app/airflow/dags
-     
     environment:
       - AIRFLOW_HOME=/app/airflow
       - AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=1000
       - AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
-    restart: unless-stopped  # Optional: restart policy
+    restart: unless-stopped
 
   flaskapp:
     build:
@@ -24,15 +23,15 @@ services:
     image: flaskimage
     container_name: gemstone-prediction-flask
     ports:
-      - "80:80"
+      - "80:80"  # Run Flask on port 80
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      test: ["CMD", "curl", "-f", "http://localhost:80"]  # Check health on port 80
       interval: 30s
       timeout: 10s
       retries: 3
     volumes:
       - ./artifacts:/app/artifacts
     environment:
-    - FLASK_APP=app.py
-    - FLASK_DEBUG=1
-    
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
+      - PORT=80  # Explicitly set port 80 for the app
