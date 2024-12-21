@@ -13,7 +13,7 @@ with DAG(
     default_args={"retries": 2},
     description="it is my training pipeline",
     schedule_interval="@weekly",  # Change to `schedule_interval`
-    start_date=pendulum.datetime(2024, 12, 15, tz="UTC"),
+    start_date=pendulum.datetime(2024, 12, 21, tz="UTC"),
     catchup=False,
     tags=["machine_learning", "classification", "gemstone"],
 ) as dag:
