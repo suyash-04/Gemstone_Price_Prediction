@@ -14,18 +14,18 @@ def predict_datapoint():
     else:
         try:
             # Get form data and ensure proper conversion to float
-            carat = float(request.form.get('carat')) # type: ignore
-            depth = float(request.form.get('depth')) # type: ignore # type: ignore
-            table = float(request.form.get('table')) # type: ignore # type: ignore
-            x = float(request.form.get('x')) # type: ignore
-            y = float(request.form.get('y')) # type: ignore
-            z = float(request.form.get('z')) # type: ignore # type: ignore
-            cut = request.form.get('cut')
-            color = request.form.get('color')
-            clarity = request.form.get('clarity')
+            carat = float(request.form.get('carat', 0))  # Default to 0 if not provided
+            depth = float(request.form.get('depth', 0))
+            table = float(request.form.get('table', 0))
+            x = float(request.form.get('x', 0))
+            y = float(request.form.get('y', 0))
+            z = float(request.form.get('z', 0))
+            cut = request.form.get('cut', '')
+            color = request.form.get('color', '')
+            clarity = request.form.get('clarity', '')
 
             # Check for missing values
-            if not all([carat, depth, table, x, y, z, cut, color, clarity]):
+            if not all([carat, depth, table, x, y, z, cut, color, clarity]) or "" in [carat, depth, table, x, y, z, cut, color, clarity]:
                 return "Missing values in form data", 400
 
             # Prepare data for prediction
@@ -36,9 +36,9 @@ def predict_datapoint():
                 x=x,
                 y=y,
                 z=z,
-                cut=cut, # type: ignore
-                color=color, # type: ignore
-                clarity=clarity # type: ignore
+                cut=cut,
+                color=color,
+                clarity=clarity
             )
             final_data = data.get_data_as_dataframe()
 
