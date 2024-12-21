@@ -68,7 +68,7 @@ dvc commit
 ```
 
 ## Track Experiments with MLflow
-Install the project with npm:
+
 
 ```bash
 mlflow ui
@@ -83,6 +83,7 @@ docker-compose up --build
 This command will build the Docker image and run all the services defined in the docker-compose.yml file.
 
 -**Access the Application:**
+
 Once the containers are up and running, the Flask app will be available at http://localhost:80. 
 
 And the airflow ui will be available at http://http://localhost:8080
