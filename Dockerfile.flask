@@ -6,6 +6,9 @@ WORKDIR /app
 
 # Copy all the application files into the container
 COPY . /app
+# Copy the artifacts directory to the container (assuming artifacts is in the root of your project)
+COPY artifacts /app/artifacts
+
 
 # Install system dependencies and update
 RUN apt update -y && apt-get install -y curl
