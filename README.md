@@ -125,12 +125,12 @@ Contributions are always welcome!
 
 ## Contact
 
-For any inquiries or feedback, reach out to us:
+For any inquiries or feedback, reach out to me:
 
 - **Email**: [suyashadhikari04@gmail.com]
 - **Social Media**: [http://tiny.cc/suyashlinkedin]
 
-We look forward to hearing from you!
+I am looking forward to hearing from you!
 
 ## License
 
