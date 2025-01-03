@@ -3,59 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Project Session</title>
+    <title>Gemstone Price Prediction Project</title>
     <style>
+        /* Global Styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Playfair Display', serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background: #f9f9f9; /* Soft off-white background */
             color: #333;
             text-align: center;
         }
+
+        /* Header Style */
         header {
-            background-color: #6200ea;
+            background-color: #6200ea; /* Consistent theme color */
             color: white;
-            padding: 20px 0;
+            padding: 50px 0;
             margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
         }
+
         h1 {
-            font-size: 3em;
+            font-size: 3.5em;
             margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
         }
+
         h2 {
             margin: 10px 0 0;
+            font-weight: 500;
+            font-size: 1.6em;
         }
-        .content {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #03dac6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: #018786;
-        }
+
+        /* Banner Style */
         .banner {
             background-image: url('data-science-banner.jpg');
             background-size: cover;
             background-position: center;
-            height: 300px;
+            height: 250px; /* Reduced height */
             margin-bottom: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: #6200ea; /* Purple aesthetic */
+            font-size: 2.2em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .banner:hover {
+            transform: scale(1.05);
+        }
+
+        /* Content Section */
+        .content {
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Button Style */
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 35px;
+            background-color: #03dac6; /* Teal color for button */
             color: white;
-            font-size: 2em;
-            text-shadow: 2px 2px 4px #000;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            font-weight: 500;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #018786;
+            transform: scale(1.05);
+        }
+
+        /* Add a gap between the buttons */
+        .button + .button {
+            margin-left: 20px; /* Adds space between the two buttons */
+        }
+
+        /* Footer Style */
+        footer {
+            background: #6200ea;
+            color: white;
+            padding: 20px;
+            font-size: 1em;
+            margin-top: 40px;
+            text-align: center;
+            border-top: 2px solid #eee;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .banner {
+                font-size: 2em;
+            }
+
+            .button {
+                font-size: 1em;
+                padding: 12px 30px;
+            }
         }
     </style>
 </head>
@@ -81,7 +162,7 @@
     </div>
 
     <footer>
-        &copy; 2024 Gemstone Price Prediction Project
+        &copy; 2024 Gemstone Price Prediction Project | <a href="https://github.com/suyash-04/Gemstone_Price_Prediction">GitHub Repository</a>
     </footer>
 
 </body>
